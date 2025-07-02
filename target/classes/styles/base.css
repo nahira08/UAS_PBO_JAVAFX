@@ -1,0 +1,66 @@
+.root {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-background-color: #f8f8fc;
+}
+
+/* Label Umum */
+.label {
+    -fx-text-fill: #3f3f46;
+    -fx-font-size: 14px;
+}
+
+/* Judul Besar */
+.heading {
+    -fx-font-size: 24px;
+    -fx-text-fill: #3f3f46;
+    -fx-font-weight: bold;
+}
+
+/* TextField dan PasswordField */
+.text-field, .password-field {
+    -fx-background-color: white;
+    -fx-border-color: #e0e0e5;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10 12;
+    -fx-text-fill: #3f3f46;
+}
+
+/* Button Umum */
+.button {
+    -fx-background-color: #696CFF;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #5d5fef;
+}
+
+/* Hyperlink */
+.hyperlink {
+    -fx-text-fill: #7d7d8a;
+    -fx-underline: false;
+}
+.hyperlink:hover {
+    -fx-text-fill: #696CFF;
+    -fx-underline: true;
+}
+
+/* Pesan Status */
+.status-message {
+    -fx-text-fill: #71dd37; /* green untuk sukses */
+}
+.status-error {
+    -fx-text-fill: #ff5c5c; /* merah untuk error */
+}
+
+/* Panel Utama (misal root VBox/HBox login) */
+.panel {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+    -fx-padding: 30;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.08), 10, 0, 0, 4);
+}

@@ -1,0 +1,191 @@
+/* === LAYOUT ROOT === */
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #fef6fb, #ffffff);
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+/* === SIDEBAR === */
+.sidebar {
+    -fx-background-color: #fff; /* harus putih */
+    -fx-padding: 30px;
+    -fx-spacing: 20px;
+    -fx-min-width: 200px;
+    -fx-background-radius: 0 20 20 0;
+}
+
+/* === SIDEBAR TITLE === */
+.sidebar-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    /* -fx-text-fill: #e91e63; */
+    -fx-padding-bottom: 20px;
+}
+
+/* === SIDEBAR BUTTON === */
+.sidebar-btn {
+    -fx-background-color: #FF59E9;
+    -fx-border-color: #e91eb0;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+/* Hover Effect */
+.sidebar-btn:hover {
+    -fx-background-color: #f929dd;
+}
+
+.nonselect-btn{
+    -fx-background-color: #efefef;
+    /* -fx-border-color: #e91eb0; */
+    -fx-text-fill: #000000;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+/* === KHUSUS LOGOUT BUTTON === */
+.logout-btn {
+    -fx-background-color: #e91e63;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+.logout-btn:hover {
+    -fx-background-color: #c2185b;
+}
+
+
+/* === MAIN CONTENT AREA === */
+.content-area {
+    -fx-padding: 30px;
+}
+
+/* === SECTION TITLE === */
+.section-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+}
+
+.geser-bawah{
+    -fx-margin-bottom: 20px;
+}
+
+.welcome-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 10px 0 0 5px; /* atas kanan bawah kiri */
+}
+
+
+/* === TABEL UMUM === */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px;
+    -fx-table-cell-border-color: transparent;
+}
+
+/* Header Kolom - REVISI */
+.table-view .column-header-background {
+    -fx-background-color: transparent; /* Hapus background putihnya */
+    -fx-padding: 8px 0;
+    -fx-border-width: 0;
+}
+
+.table-view .column-header {
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #e91e63; /* pink tulisan header */
+    -fx-padding: 10px 8px;
+    -fx-alignment: CENTER_LEFT;
+}
+
+/* Only round the first and last header cell */
+.table-view .column-header:first-child {
+    -fx-background-radius: 10 0 0 0;
+    -fx-border-radius: 10 0 0 0;
+}
+
+.table-view .column-header:last-child {
+    -fx-background-radius: 0 10 0 0;
+    -fx-border-radius: 0 10 0 0;
+}
+
+/* Sel biasa */
+.table-cell {
+    -fx-padding: 10px 5px;
+    -fx-font-size: 13px;
+    -fx-text-fill: #333;
+    -fx-border-color: transparent;
+}
+
+/* Row default */
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+
+/* Row saat di-hover */
+.table-row-cell:hover {
+    -fx-background-color: #fff0f5; /* pink super muda saat hover */
+}
+
+/* Row selected */
+.table-row-cell:filled:selected, .table-cell:filled:selected {
+    -fx-background-color: #ffe6f0;
+    -fx-text-fill: #000;
+}
+
+.delete-btn {
+    -fx-background-color: #ff4d4d;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 2 8;
+    -fx-background-radius: 6;
+}
+
+.update-btn {
+    -fx-background-color: #58d8e4;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-padding: 2 8;
+    -fx-background-radius: 6;
+}
+
+.anggota-card {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 8, 0, 0, 3);
+    -fx-spacing: 4;
+    -fx-padding: 12 16 12 16;
+    -fx-max-width: 250;
+}
+
+.anggota-card-title {
+    -fx-font-size: 12px;
+    -fx-font-weight: normal;
+    -fx-text-fill: #666666;
+}
+
+.anggota-card-count {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FF59E9;
+}

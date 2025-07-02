@@ -1,0 +1,65 @@
+/* Root background */
+.login-root {
+    -fx-background-color: linear-gradient(to right, #f9d5ec, #fdfcf8);
+    -fx-pref-width: 800px;
+    -fx-pref-height: 600px;
+}
+
+/* Card styling */
+.login-card {
+    -fx-background-color: white;
+    -fx-background-radius: 20px;
+    -fx-padding: 30px;
+    -fx-spacing: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 15, 0, 0, 5);
+    -fx-alignment: center;
+}
+
+/* Title text */
+.login-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: center;
+}
+
+/* Input field styling */
+.input-field {
+    -fx-pref-width: 100%;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Button: Login */
+.button-login {
+    -fx-background-color: linear-gradient(to right, #f249ac, #ff80d5);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+/* Button: Register */
+.button-register {
+    -fx-background-color: linear-gradient(to right, #fd70f3, #fd70f3);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8 16 8 16;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+/* Optional: hover effect */
+.button-login:hover {
+    -fx-opacity: 0.9;
+}
+
+.button-register:hover {
+    -fx-opacity: 0.9;
+}
